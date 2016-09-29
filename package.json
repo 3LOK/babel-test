@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require setup.js \"test.js\""
+    "test": "mocha --require spec/setup.js \"spec/**/*.spec.js\""
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,11 @@
     "babel-eslint": "*",
     "babel-loader": "*",
     "babel-preset-es2015": "*",
+    "babel-preset-react": "^6.16.0",
     "babel-preset-stage-2": "*",
     "babel-register": "*",
     "babel-runtime": "*",
+    "jsdom": "^9.5.0",
     "mocha": "^3.1.0"
   },
   "publishConfig": {
