@@ -1,0 +1,32 @@
+{
+  "name": "babel-test",
+  "description": "babel-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require setup.js \"test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3LOK/babel-test"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wix-private/babel-test/issues"
+  },
+  "homepage": "https://github.com/wix-private/babel-test#readme",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-2": "*",
+    "babel-register": "*",
+    "babel-runtime": "*",
+    "mocha": "^3.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {}
+}
