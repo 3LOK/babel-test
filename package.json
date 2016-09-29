@@ -30,5 +30,11 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "dependencies": {}
+  "dependencies": {
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }
